@@ -3,67 +3,85 @@ html{box-sizing:border-box;}
 body{
   background-attachment: fixed;
   background-image: url("http://thepatternlibrary.com/img/a.jpg");
-  
-  font-family: 'Times New Roman', cursive;
+  font-family: 'Alata', sans-serif;
   font-size: 24px;
 }
+
 ul{
   list-style-type: none;
 }
+
+/* 5 */
 h1{
+  color: tomato;
   margin:0px 0px 10px 0px;
   padding: 10px;
 }
+
 .main-container{
   width: 1140px;
   margin: 0 auto;
   border: lime solid 1px;
 }
-.tk-mostra-nuova
-{font-family:"mostra-nuova",sans-serif;}
 
+.tk-mostra-nuova{
+  font-family:"mostra-nuova",sans-serif;
+}
+
+/* este es el header */
+/* 1 */
 .main-header{
-  background-color: tomato;
+  background-color:#664f82;
   width: 100%;
   margin: 0 auto;
   overflow:hidden;
   border: #b9a3d4 solid 1px;
   margin-bottom: 20px;
 }
+
 .main-header img{
   width: 8%;
   float:left;
   margin:2px;
 }
+
 .left-navbar{
   float:left;
 }
+
 .right-navbar{
   float:right;
   margin-right:10px;
 }
+
 .left-navbar ul li{
   display: inline-block;
   margin: 5px;
 }
+
 .right-navbar ul li{
   display: inline-block;
   margin: 5px;
 }
+
 .left-navbar li a{
   color:#fff;
   text-transform:uppercase;
   text-decoration:none;
 }
+
 .right-navbar li a{
   color:#fff;
   text-transform:uppercase;
   text-decoration:none;
 }
+
+/* 3 */
 .main-body{
-  background-color: lightblue;
+  background-color: white;
   overflow:hidden;
 }
+
 .left-section{
   width: 800px;
   background-color: white;
@@ -71,54 +89,72 @@ h1{
   padding:10px;
   box-sizing:border-box;
 }
+
+/* 6 */
 .right-section{
+  /* clase seccion derecha */
   width: 320px;
-  background-color: yellow;
+  background-color:  #f5a59d;
   float:right;
   box-sizing:border-box; 
 }
+
+/* 3 - 7 */
 .right-section article{
+  color: white;
   text-align:right;
   margin-right:10px;
 }
+
+/* 8 */
 .right-section article p{
-  font-size: 12px;
+  font-size: 18px;
   padding:5px;
-  color: #000000
+  color:  #780e04
 }
+
+/* 4 */
 .product-box{
   font-size: 14px;
   width:380px;
   box-sizing:border-box;
-  border: solid 1px lightcoral;
+  /* border: solid 1px lightcoral; */
   padding: 10px;
   float: left;
   margin:10px 0px 0px 5px;
 }
+
 .product-box img{
   display:block;
   margin:0 auto;
 }
+
+/* este es el footer */
 footer{
   margin-top: 15px;
-  background-color: orangered;
+  background-color: #664f82;
   border: #b9a3d4 solid 1px;
-  /*align completan alumnes*/
+  /*align completan alumnos*/
   text-align:center;
   padding: 10px
 }
+
+/* 1 - 9 */
 footer p{
   margin:30px  auto;
-  color:teal;
-  font-size: 24px;
+  color:white;
+  font-size: 16px;
 }
+
 .left-navbar-bottom{
   margin: 0 auto;
 }
+
 .left-navbar-bottom ul li{
   display: inline-block;
   margin: 5px;
 }
+
 .left-navbar-bottom li a{
   color:#fff;
   text-transform:uppercase;
